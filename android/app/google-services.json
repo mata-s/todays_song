@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "262611217607",
+    "project_id": "todays-song-62774",
+    "storage_bucket": "todays-song-62774.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:262611217607:android:71cd7999ae48a7d5c4e2e2",
+        "android_client_info": {
+          "package_name": "com.example.todays_song"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdtoHTe58dVl9-Xd1AD2SWFp1vkhSNRCQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
