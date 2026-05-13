@@ -37,6 +37,10 @@ dependencies:
   firebase_core: ^4.7.0
   firebase_auth: ^6.4.0
   cloud_firestore: ^6.3.0
+  flutter_card_swiper: ^7.2.0
+  url_launcher: ^6.3.1
+  shared_preferences: ^2.5.3
+  crypto: ^3.0.6
 
 dev_dependencies:
   flutter_test:
@@ -48,6 +52,7 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -61,9 +66,34 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/logo/onesong_logo.png
+    - assets/time/densilya.png
+    - assets/time/kaerimiti.png
+    - assets/time/kumori.png
+    - assets/time/shinya.png
+    - assets/time/yuugata.png
+    - assets/time/ame.png
+    - assets/time/asa.png
+    - assets/time/aozora.png
+    - assets/emotion/agaru.png
+    - assets/emotion/chill.png
+    - assets/emotion/emoi.png
+    - assets/emotion/iyashi.png
+    - assets/emotion/kodoku.png
+    - assets/emotion/maemuki.png
+    - assets/emotion/think.png
+    - assets/emotion/tokimeki.png
+    - assets/genre/hiphop.png
+    - assets/genre/hou-rock.png
+    - assets/genre/hougaku.png
+    - assets/genre/j-pop.png
+    - assets/genre/jaz.png
+    - assets/genre/k-pop.png
+    - assets/genre/you-pop.png
+    - assets/genre/you-rock.png
+    - assets/genre/yougaku.png
+
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
@@ -90,3 +120,10 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
+
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: assets/icon/app_icon.png
+  remove_alpha_ios: true
